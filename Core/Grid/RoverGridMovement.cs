@@ -93,7 +93,7 @@ namespace Core.Grid
                     }
                     else
                     {
-                        newLocation.X = Grid.GetLength(0);
+                        newLocation.X = Grid.GetLength(0) - 1;
                     }
 
                     break;
@@ -129,7 +129,7 @@ namespace Core.Grid
                     }
                     else
                     {
-                        newLocation.Y = Grid.GetLength(1);
+                        newLocation.Y = Grid.GetLength(1) - 1;
                     }
 
                     break;
